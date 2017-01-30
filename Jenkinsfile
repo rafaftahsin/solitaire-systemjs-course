@@ -47,8 +47,6 @@ parallel chrome: {
     runTests("Chrome")
 }, firefox: {
     runTests("Firefox")
-}, safari: {
-    runTests("Safari")
 }
 
 def runTests(browser) {
